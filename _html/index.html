@@ -4,28 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../_css/style.css" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>Beauty Salon</title>
   </head>
   <body>
     <header id="header">
       <nav class="container">
-        <a class="logo" href="#">beautysalon.</a>
-        <div>Menu</div>
+        <a class="logo" href="#">beauty<span>salon</span>.</a>
+        <div id="menu">Menu</div>
       </nav>
     </header>
 
     <main>
-      <section id="home">
-        <div class="container">
-          <img
-            src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-            alt="Beauty Salon: Happy hairdressing"
-          />
-          <h1>Natural health for your hair</h1>
-          <p>An exclusive salon specializing in natural treatments.</p>
-          <a href="#">Schedule an appointment</a>
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="Beauty Salon: Happy hairdressing"
+            />
+          </div>
+          <div class="text">
+            <h1>Natural health for your hair</h1>
+            <p>An exclusive salon specializing in natural treatments.</p>
+            <a class="button" href="#">Schedule an appointment</a>
+          </div>
         </div>
+      </section>
+      <div class="divider-1"></div>
+      <section class="section">
+        <div class="container">bagulho</div>
       </section>
     </main>
   </body>
