@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beauty Salon</title>
     <link rel="stylesheet" href="../_css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="../_assests/fonts/icons.css" />
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -139,63 +143,70 @@
 
       <!-- TESTIMONIALS -->
       <section class="section" id="testimonials">
-        <div class="container grid">
+        <div class="container">
           <header>
             <h2 class="title">Some of our clients testimonials</h2>
           </header>
-          <div class="testimonials">
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolorum rem, facere magni laborum veniam tempore mollitia ad.
-                </p>
-                <cite
-                  ><img
-                    src="https://randomuser.me/api/portraits/women/12.jpg"
-                    alt="Ayumi Photo"
-                  />Ayumi</cite
-                >
-              </blockquote>
-            </div>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorum rem, facere magni laborum veniam tempore mollitia
+                    ad.
+                  </p>
+                  <cite
+                    ><img
+                      src="https://randomuser.me/api/portraits/women/12.jpg"
+                      alt="Ayumi Photo"
+                    />Ayumi</cite
+                  >
+                </blockquote>
+              </div>
 
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolorum rem, facere magni laborum veniam tempore mollitia ad.
-                </p>
-                <cite
-                  ><img
-                    src="https://randomuser.me/api/portraits/men/9.jpg"
-                    alt="Douglas Photo"
-                  />Douglas</cite
-                >
-              </blockquote>
-            </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorum rem, facere magni laborum veniam tempore mollitia
+                    ad.
+                  </p>
+                  <cite
+                    ><img
+                      src="https://randomuser.me/api/portraits/men/9.jpg"
+                      alt="Douglas Photo"
+                    />Douglas</cite
+                  >
+                </blockquote>
+              </div>
 
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolorum rem, facere magni laborum veniam tempore mollitia ad.
-                </p>
-                <cite
-                  ><img
-                    src="https://randomuser.me/api/portraits/men/91.jpg"
-                    alt="Jackson Photo"
-                  />Jackson</cite
-                >
-              </blockquote>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorum rem, facere magni laborum veniam tempore mollitia
+                    ad.
+                  </p>
+                  <cite
+                    ><img
+                      src="https://randomuser.me/api/portraits/men/91.jpg"
+                      alt="Jackson Photo"
+                    />Jackson</cite
+                  >
+                </blockquote>
+              </div>
             </div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
       <!-- CONTACTS -->
     </main>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="../_script/main.js"></script>
   </body>
 </html>

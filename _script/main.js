@@ -1,4 +1,4 @@
-// toggle menu when clicked on menu icons //
+// toggle menu when clicked on menu icons
 const nav = document.querySelector('#header nav')
 const toggle = document.querySelectorAll('nav .toggle')
 
@@ -8,7 +8,7 @@ for (const element of toggle) {
   })
 }
 
-// toggle menu when clicked on menu items //
+// toggle menu when clicked on menu items
 const links = document.querySelectorAll('nav ul li a')
 
 for (const link of links) {
@@ -17,7 +17,7 @@ for (const link of links) {
   })
 }
 
-// header shadow //
+// header shadow
 const header = document.querySelector('#header')
 const navHeight = header.offsetHeight
 
@@ -27,4 +27,14 @@ window.addEventListener('scroll', function () {
   } else {
     header.classList.remove('scroll')
   }
+})
+
+// Swiper testimonials slider
+const swiper = new Swiper('.swiper-container', {
+  slidesPerView: 1,
+  pagination: {
+    el: '.swiper-pagination'
+  },
+  mousewheel: true,
+  keyboard: true
 })

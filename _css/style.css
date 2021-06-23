@@ -338,3 +338,66 @@ nav.show div.icon-close {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
 }
+
+/*====  TESTIMONIALS ============================ */
+#testimonials .container {
+  margin-left: 0;
+  margin-right: 0;
+}
+#testimonials header {
+  margin-bottom: 0;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+#testimonials blockquote {
+  padding: 2rem;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+}
+
+#testimonials blockquote p {
+  position: relative;
+  text-indent: 1.875rem;
+  margin-bottom: 1.5rem;
+  color: var(--title-color);
+}
+
+#testimonials blockquote p span {
+  font-weight: 700;
+  font-size: 3rem;
+  font-family: serif;
+  color: var(--base-color);
+  position: absolute;
+  top: -0.5rem;
+  left: -1.875rem;
+}
+
+#testimonials cite {
+  display: flex;
+  align-items: center;
+}
+
+#testimonials cite img {
+  width: 3rem;
+  height: 3rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -webkit-clip-path: circle();
+  clip-path: circle();
+  margin-right: 0.5rem;
+}
+
+/* SWIPER */
+.swiper-slide {
+  height: auto;
+  padding: 4rem 1rem;
+}
+
+.swiperpagination-bullet {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--base-color);
+}
