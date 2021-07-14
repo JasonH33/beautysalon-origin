@@ -500,17 +500,113 @@ footer .social a:hover {
   opacity: 1;
   transform: translateY(0);
 }
-
-/*======= MEDIA QUERIES =========*/
-/* XXLarge Devices: 1200> */
-/* XLarge Devices: 1023> */
-/* Large Devices: 992> */
-/* Medium Devices: 767> */
-
-/* XXLarge Devices */
-@media (min-width: 1200px) {
+/* Large Desktop */
+@media (min-width: 1440px) {
   .container {
-    max-width: 1120px;
+    max-width: 1440px;
+  }
+
+  .section {
+    padding: 10rem 0;
+  }
+
+  .section .header {
+    max-width: 32rem;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  main {
+    margin-top: var(--header-height);
+  }
+
+  nav .menu {
+    visibility: visible;
+    opacity: 1;
+    top: 0;
+  }
+
+  nav .menu ul {
+    display: flex;
+    gap: 2rem;
+  }
+
+  nav .menu ul li a.title {
+    font: 400 1rem var(--body-font);
+  }
+
+  nav .menu ul li a.title.active {
+    font-weight: bolder;
+  }
+
+  nav .icon-menu {
+    display: none;
+  }
+
+  #home .container {
+    grid-auto-flow: column;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  #home .image {
+    order: 1;
+  }
+
+  #home .text {
+    order: 0;
+    max-width: 24rem;
+    text-align: left;
+  }
+
+  #about .container {
+    grid-auto-flow: column;
+    margin: 0 auto;
+  }
+
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  #testimonials .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #contact .container {
+    grid-auto-flow: column;
+    align-items: center;
+  }
+
+  #contact .text {
+    max-width: 25rem;
+  }
+
+  footer.section {
+    padding: 3.75rem 0;
+  }
+
+  footer .container {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer .logo {
+    font-size: 2.5rem;
+  }
+}
+/* Laptop */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .container {
+    max-width: 992px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -612,10 +708,111 @@ footer .social a:hover {
     font-size: 2.5rem;
   }
 }
-/* Large */
-@media (min-width: 992px) {
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
   :root {
     --title-font-size: 2.25rem;
     --subtitle-font-size: 1.125rem;
+  }
+
+  .container {
+    max-width: 768px;
+  }
+
+  .section {
+    padding: 10rem 0;
+  }
+
+  .section .header {
+    max-width: 32rem;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  main {
+    margin-top: var(--header-height);
+  }
+
+  nav .menu {
+    visibility: visible;
+    opacity: 1;
+    top: 0;
+  }
+
+  nav .menu ul {
+    display: flex;
+    gap: 2rem;
+  }
+
+  nav .menu ul li a.title {
+    font: 400 1rem var(--body-font);
+  }
+
+  nav .menu ul li a.title.active {
+    font-weight: bolder;
+  }
+
+  nav .icon-menu {
+    display: none;
+  }
+
+  #home .container {
+    grid-auto-flow: column;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  #home .image {
+    order: 1;
+  }
+
+  #home .text {
+    order: 0;
+    max-width: 24rem;
+    text-align: left;
+  }
+
+  #about .container {
+    grid-auto-flow: column;
+    margin: 0 auto;
+  }
+
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  #testimonials .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #contact .container {
+    grid-auto-flow: column;
+    align-items: center;
+  }
+
+  #contact .text {
+    max-width: 25rem;
+  }
+
+  footer.section {
+    padding: 3.75rem 0;
+  }
+
+  footer .container {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer .logo {
+    font-size: 2.5rem;
   }
 }
