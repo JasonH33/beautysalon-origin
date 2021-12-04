@@ -1,10 +1,10 @@
 # nlw-origin
- Trilha origin da Next Level Week promovida pela Rocketseat
+ Origin project from Next Level Week by Rocketseat
  
- # Site de computador:
+ # PC Site:
 ![screenshot_20210621-011624_1](https://user-images.githubusercontent.com/53789632/143483052-ebbe3f0c-b5ff-4084-b8cc-f205afb2cca2.jpg)
 
-# Site Mobile:
+# Mobile Site:
 ![screenshot_20210621-011716_1_1](https://user-images.githubusercontent.com/53789632/143483138-899ae020-22c1-4dfb-9e21-7c8398afc799.jpg)
 ![screenshot_20210621-011716_1_2](https://user-images.githubusercontent.com/53789632/143483145-9e91e073-6ce2-4448-aa7e-905d768f2d0c.jpg)
 
